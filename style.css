@@ -1,0 +1,79 @@
+body{
+    box-sizing: border-box;
+    width: 1600px;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+header{
+    border-bottom: 1px solid #000000;
+    box-shadow: 10px 7px 5px rgba(0,0,0,0.1);
+}
+header ul{
+    list-style-type: none;
+}
+.navigation ul{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__info img{
+    margin: 10px;
+}
+header button{
+    color: #3D8BE4;
+    padding: 5px 15px;
+    background-color: #ffff;
+    border: 1px solid #3D8BE4;
+}
+header a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* info */
+
+.info h1{
+    font-size: 55px;
+}
+.containerInfoText{
+    width: 730px;
+    margin-left: 12.5%;
+}
+.info button{
+    padding: 10px 25px;
+    border-radius: 6px;
+
+}
+.info__selectCourse{
+    color:#ffff;
+    background: #3D8BE4;
+    border: 0;
+}
+.info__consultation{
+    background-color: #ffff;
+    color: #3D8BE4;
+    border: 1px solid #3D8BE4;
+    margin: 20px;
+}
+.info__scene{
+    position: relative;
+    top: -275px;
+    left: 240px;
+}
+.info__border{
+    z-index: -2;
+    position:relative;
+    top:-320px;
+    left: 750px;
+}
+
